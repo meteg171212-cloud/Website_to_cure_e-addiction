@@ -1,3 +1,40 @@
+@keyframes color-change {
+    0% {
+      color: black;
+    }
+  
+    50% {
+      color: white;
+    }
+  
+    100% {
+      color: black;
+    }
+}
+
+/*h1 {
+    animation: color-change 3s infinite;
+}
+
+
+h1 {
+    animation: color-change 3s infinite;
+}*/
+
+/*h2{
+    animation: color-change 3s infinite;
+}*/
+
+h1:hover { animation: color-change 2s infinite; }
+p:hover { animation: color-change 2s infinite; }
+h2:hover { animation: color-change 2s infinite; }
+title:hover { animation: color-change 2s infinite; }
+li:hover { animation: color-change 3s infinite; }
+
+
+
+
+
 body {
     font-family: Arial, sans-serif; /* Yazı tipi ailesi */
     font-size: 11px; /* <p></p> etiketindeki ana yazının boyutu */
@@ -6,7 +43,7 @@ body {
 }
 
 h1 {
-    color: hsl(0, 0%, 100%); /* Başlık rengi */
+    color: hsl(0, 0%, 0%); /* Başlık rengi */
     font-size: 24px; /* Başlık yazı tipi boyutu */
     font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */
 }
@@ -14,20 +51,20 @@ h1 {
 
 
 h2 {
-    color: hsl(0, 0%, 100%); /* Başlık rengi */
+    color: hsl(0, 0%, 0%); /* Başlık rengi */
     font-size: 24px; /* Başlık yazı tipi boyutu */
     font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */
 }
 
 
 p {
-    color: hsl(0, 0%, 100%); /* Başlık rengi */
+    color: hsl(0, 0%, 0%); /* Başlık rengi */
     font-size: 24px; /* Başlık yazı tipi boyutu */
     font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */
 }
 
 ul {
-    color: hsl(0, 0%, 100%); /* Başlık rengi */
+    color: hsl(0, 0%, 0%); /* Başlık rengi */
     font-size: 24px; /* Başlık yazı tipi boyutu */
     font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */
 }
